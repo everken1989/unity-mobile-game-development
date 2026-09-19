@@ -53,6 +53,7 @@ public class Testing : MonoBehaviour
        if(other.gameObject.CompareTag("Enemy"))
         {
             mtl.color = Color.antiqueWhite;
+            Debug.Log("Other GO: " , other.gameObject);
             Destroy(other.gameObject);
         } 
     }
